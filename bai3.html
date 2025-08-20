@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 3</title>
+</head>
+<body>
+    <marquee><font size="10"><b>36</b></font></marquee>
+    <h1>Bai 3</h1>
+    <p>Dang sach cac viec lam vao buoi sang</p>
+    <!-- Co thu tu -->
+    <ol>
+        <li>Thuc day</li>
+        <li>Danh rang</li>
+        <li>An sang</li>
+        <li>Di hoc</li>
+    </ol>
+    <!-- Ko co thu tu <ul>-->
+    <ul>
+        <li>Python</li>
+        <li>javascript</li>
+        <li>PHP</li>
+        <li>C#</li>
+    </ul>
+    <h1>Form</h1>
+    <form>
+        <div>
+            <b>Ho va ten</b>
+            <input type="text" name="hoten" placeholder="Nhap ten vao day">
+        </div>
+        <br>
+        <div>
+            <b>Nam</b>
+            <input type="text" name="nam" value="2025" readonly>
+        </div>
+        <div>
+            <b>Gioi thieu chi tiet ve ban than</b><br>
+            <textarea type="text" name="gioithieu">Nhap gioi thieu:</textarea>>
+        </div>
+        <div>
+            <b>Email:</b><br>
+            <input type="email" name="email" placeholder="Dang @gmail.com">
+        </div>
+        <br>
+        <div>
+            <b>So dien thoai</b><br>
+            <input name="sodienthoai" type="tel" placeholder="Dang so 09xxxxxxx" required
+            pattern="([0]{1}([0,3,9]{1}([0-9]{8})))">
+        </div>
+        <br>
+        <div>
+            <b>Gioi tinh</b><br>
+            <input type="radio" name="gioitinh" value="nam">Nam<br>
+            <input type="radio" name="gioitinh" value="nu">Nu<br>
+            <input type="radio" name="gioitinh" value="kobt">Ko xac dinh<br>
+        </div>
+        <br>
+        <div>
+            <b>So thich</b><br>
+            <input type="checkbox" name="sothich" value="Da bong">Da bong<br>
+            <input type="checkbox" name="sothich" value="Xem phim">Xem phim<br>
+            <input type="checkbox" name="sothich" value="Choi game">Choi game<br>
+        </div>
+        <br>
+        <div>
+            <b>Trinh duyet yeu thich</b><br>
+            <input list="browser">
+            <datalist id="browser">
+                <option value="Chon lua"></option>
+                <option value="Chom"></option>
+                <option value="Nha hat"></option>
+                <option value="Kham pha"></option>
+            </datalist>
+            <br>
+            <select name="browser">
+                <option value="Chon lua">Chon lua</option>
+                <option value="Chom">Chom</option>
+                <option value="Nha hat">Nha hat</option>
+                <option value="Kham pha">Kham pha</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            0 <input type="range" value="20">100
+        </div>
+        <br>
+        <div>
+            <b>Chon tuoi</b>
+            <input type="number" name="tuoi">
+        </div>
+        <div>
+            <b>Ngay thang nam</b>
+            <input type="date">
+        </div>
+        <br>
+        <div>
+            <b>Chon mau</b>
+            <input type="color">
+        </div>
+        <br>
+        <div>
+            <b>Mat khau</b>
+            <input type="password">
+        </div>
+        <br>
+        <div>
+            <input type="reset">
+        </div>
+
+        <div>
+            <input type="submit">
+            <input type="button">
+        </div>
+    </form>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zz2lDd2kXeQ?si=SZODxVOqTH6gtDfo" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+    encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen></iframe>
+    <video controls width="560" height="315">
+        <source src="" type="video">
+    </video>
+    <audio controls>
+        <source src="" type="audio">
+    </audio>
+</body>
+</html>
