@@ -1,0 +1,15 @@
+h3{
+    color: orangered;
+}
+/* id phai co thang # */
+#tieude{
+    color: aqua;
+}
+/* tat ca class phai co cham .*/
+.bg{
+    background-color: cyan;
+}
+p{
+    color: azure;
+    background-color: brown;
+}
