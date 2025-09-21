@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De 2</title>
+    <style>
+        header{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            align-items: center;
+            button{
+                background-color: lightgrey;
+            }
+        }
+        h1{
+            margin-left: 10px;
+        }
+        button{
+            border-radius: 10px;
+            border: none;
+            padding: 5px 12px;
+        }
+        main{
+            display: flex;
+            width: 100%;
+        }
+        li{
+            list-style: none;
+            padding: 8px 5px;
+            margin: 5px 0px;
+            border-radius: 8px;
+            width: 100%;
+        }
+        li:hover{
+            background-color: lightgray;
+        }
+        ul{
+            padding: 0px;
+        }
+        a{
+            text-decoration: none;
+            width: 100%;
+
+        }
+        .home{
+            width: 14%;
+            margin-left: 10px;
+        }
+        .hometitle{
+            color: gray;
+            margin-top: 160px;
+            margin-left: 26px;
+        }
+        .container{
+            width: 40%;
+            margin-left: 60px;
+            margin-top: 200px;
+            button{
+                background-color: black;
+                color: white;
+            }
+        }
+        .noidungphai{
+            margin-left: 60px;
+        }
+        .img{
+            width: 250px;
+            height: 250px;
+            background-color: lightblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+            button{
+                width: 70%;
+                font-size: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Open AI</h2>
+        <div>
+            <button>Log in</button>
+        </div>
+    </header>
+    
+    <main>
+        <div class="home">
+            <div class="hometitle">
+                Home
+            </div>
+            <div class="menu">
+                <ul class="menu-danhsach">
+                    <li class="menu-li" ><a class="menu-lienket" href="#">API Platform</a></li>
+                    <li class="menu-li" ><a class="menu-lienket" href="#">API Pricing</a></li>
+                    <li class="menu-li" ><a class="menu-lienket" href="#">Codex</a></li>
+                    <li class="menu-li" ><a class="menu-lienket" href="#">Open Model</a></li>
+                    <li class="menu-li" ><a class="menu-lienket" href="#">Community</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <h1>Codex</h1>
+            <p>One angent for every where you code-included in chat GPT Plus, Pro, Business, Edu, 
+                Enterprice Plans.
+            </p>
+            <div style="display: flex;">
+                <button>Get started</button>
+                <div style="margin-left: 10px;">
+                    $ npm i -g @openai/codex
+                </div>
+            </div>
+        </div>
+        <div class="noidungphai">
+            <div class="img">
+                <button>Code review</button>
+            </div>
+            <div class="img">
+                <button>eb/aig</button>
+            </div>
+        </div>
+        
+    </main>
+    
+</body>
+</html>
