@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <script>
+        // <br> de xuong dong nhu binh thuong
+        document.writeln("Hello World!"+"<br>");
+        // khai bao bien dung let hoac var
+        let hoTen = "Mai Son";
+
+        document.writeln(hoTen +"<br>");
+
+        let soThuNhat = 5;
+        let soYhuhai = "5";
+        let ketQua = 0;
+        ketQua = soThuNhat + soYhuhai;
+        document.writeln(ketQua);
+        ketQua = soThuNhat - soYhuhai;
+        document.writeln(ketQua);
+        ketQua = soThuNhat * soYhuhai;
+        document.writeln(ketQua);
+        ketQua = soThuNhat / soYhuhai;
+        document.writeln(++ketQua);
+        // ++var la cong truoc roi hien thi ketQua
+        // var++ la hien thi truoc roi moi cong
+
+        soThuNhat+=soYhuhai;//=soThuNhat=soThuNhat+soYhuhai
+        // so sanh
+        document.writeln(soThuNhat!==soYhuhai);
+        // ! la phu dinh
+        // === !==
+
+        let thongTinSV = {
+            hoten:"Mai Son",
+            mssv:"2321050119",
+            gioiTinh:"nam",
+            tuoi:20,
+            lop:"THKT"
+        }
+        let diaChi1 ={
+            thanhPho:"Ha Noi",
+            quan:"Tay Ho",
+            phuong:"Phu Thuong"
+        }
+        thongTinSV.diaChi=diaChi1;
+        let namSinh = 2025-thongTinSV.tuoi;
+        document.writeln("Xin chao"+" "+thongTinSV.hoten+" "+thongTinSV.diaChi.phuong
+            +" "+thongTinSV.diaChi.quan+" "+namSinh
+        );
+
+
+    </script>
+</body>
+</html>
