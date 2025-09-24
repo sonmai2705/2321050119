@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>baitapjs</title>
+</head>
+<body>
+    <script>
+        let donHang = {
+            mdh:"001",
+            khachHang:{
+                hoTen:"Mai Son",
+                sdt:"0123456789",
+                nhanVientt:true,
+            },
+            danhSachsp:{
+                cafe:{
+                    masp:"01",
+                    tensp:"cafe",
+                    soLuong:2,
+                    giaTien:10000,
+                },
+                macha:{
+                    masp:"02",
+                    tensp:"macha",
+                    soLuong:3,
+                    giaTien:20000,
+                },
+                traSua:{
+                    masp:"03",
+                    tensp:"ts",
+                    soLuong:1,
+                    giaTien:15000,
+                },
+            },
+            thanhToantc:true,
+            diaChi:"Ha Noi",
+        }
+        let tongCafe = donHang.danhSachsp.cafe.giaTien*donHang.danhSachsp.cafe.soLuong;
+        let tongMacha = donHang.danhSachsp.macha.giaTien*donHang.danhSachsp.macha.soLuong;
+        let tongTrasua = donHang.danhSachsp.traSua.giaTien*donHang.danhSachsp.traSua.soLuong;
+        let tongTien=tongCafe+tongMacha+tongTrasua;
+        document.writeln(tongTien+" VND <br>");
+        document.writeln("kiem tra so ki tu ma don hang = "+donHang.mdh.length);
+        var mystring = "Hola";
+        document.writeln("<br>" +mystring[3]);
+        // cat chuoi
+        document.writeln(mystring.slice(1,4));
+        // thay the chuoi
+        document.writeln("<br>"+mystring.replace("Hola","hala madrid"));
+        document.writeln("<br>"+mystring.toUpperCase());
+        // tra ra vi tri cua li tu trong chuoi
+        document.writeln("<br>"+mystring.indexOf("a"));
+        // kiem tra co ki tu trong chuoi hay ko
+        document.writeln("<br>"+mystring.includes("a"));
+        // chia chuoi thanh mang theo ki tu trong chuoi
+        document.writeln("<br>"+mystring.split('o'));
+        // kiem tra bat dau
+        document.writeln("<br>"+mystring.startsWith("H"));
+        let so="123";
+        document.writeln("<br>"+typeof(so)+" va "+typeof(Number(so)));
+        document.writeln("<br>"+parseInt(so));
+        //lam tron toFixed(so ki tu sau dau cham)
+        // kiem tra so isNaN(so can kiem tra)
+        //liemtra so huu han isFinite(so can liem tra)
+        // ham date()
+        let today = new Date();
+        document.writeln("<br>"+today);
+        document.writeln("<br>"+today.getDay());
+
+        
+
+
+    </script>
+</body>
+</html>
