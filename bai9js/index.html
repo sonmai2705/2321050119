@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bai 9 Java Script</title>
+</head>
+<body>
+    <script>
+        //array
+        let arr =[1,2,3,4,5 ,"a",'c',5,6];
+        let num="123"
+        document.writeln(arr.length);
+        //truy cap vao so thu 3 cua mang
+        document.writeln(arr[3]);
+        // tra chi so cua so truyen vao
+        document.writeln(arr.indexOf("a"));
+        document.writeln(arr.lastIndexOf(5));
+        // kiem tra xem co phai la array ko
+        document.writeln(Array.isArray(num));
+
+        // gop lai cac mang arr
+        let a,b,c,d;
+        a=[1,2,3];
+        b="java";
+        c=[43,"Script"];
+        d=a.concat(b,c);
+
+
+        document.writeln("<br>"+d.join(" tach cac ki tu trong mang "));
+        
+        // lay ra gia tri cuoi cua mang
+        document.writeln("<br>"+d.pop());
+        d.push("hala");
+        document.writeln("<br>"+d);
+        // shift lay phan tu dau
+        // unshift them phan tu dau      
+        
+        document.writeln("<br>"+d.reverse());
+        
+        d[3]=4;
+        document.writeln("<br>"+d);
+        
+        //if else
+        let homnay =new Date();
+        homnay.getDate();
+        let now = homnay.getHours;
+        document.writeln(now);
+        if(now<=10){
+            document.writeln("Chao buoi sang <3!")
+        }
+        else if(now>10 && now<=12){
+            document.writeln("Chao buoi trua <3!");
+        }
+        else if(now>12 && now<=18){
+            document.writeln("Chao buoi chieu<3!")
+        }
+        else if(now>18&&now<=22){
+            document.writeln("Chao buoi toi<3!")
+        }
+        else{
+            document.writeln("Chao buoi dem<3!");
+        }
+
+        document.writeln("<br>");
+        let so ="100000000000000001";
+        let socuoicung=parseInt(so[so.length]-1);
+        if(socuoicung%2==0){
+            document.writeln("la so chan!");
+        }
+        else{
+            document.writeln("la so le!");
+        }
+
+
+
+
+    </script>
+</body>
+</html>
