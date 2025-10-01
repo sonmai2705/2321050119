@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 10 Java Script</title>
+</head>
+<body>
+    <script>
+        // alert("Chao xin ban");
+
+        // let kq=confirm("Nhan nut di!!!");
+        // // document.writeln(kq);
+        // if(kq==true){
+        //     document.writeln("Ban da mat tien<3! ");
+        // }else{
+        //     document.writeln("Bam nut di ban! ");
+        // }
+
+        // let kq= prompt("some text","default value");
+        // document.writeln(kq);
+
+        //switch - case
+        // let today=new Date();
+        // document.writeln(today.getDay());
+        // switch(today.getDay()){
+        //     //kiem tra xem hom nay la thu 6
+        //     case(5):
+        //         document.writeln("Finally Friday!");
+        //         break;
+        //     //kiem tra xem hom nay la thu 7
+        //     case(6):
+        //         document.writeln("Super Sartuday!");
+        //         break;
+        //     //kiem tra xem hom nay la Chu Nhat
+        //     case(0):
+        //         document.writeln("Sleepy Sunday!");
+        //         break;
+        //     default:
+        //         document.writeln("Waiting for love!");
+        // }
+
+        // for (let i = 0; i < 1000; i++) {
+        //     document.writeln("<br>"+i+" anh chin loi!");
+        // }
+
+        // let arrNum=[0,1,2,3,4,5]
+        // for(let j = 0; j<arrNum.length;j++){
+        //     document.writeln("<br> alo");
+        // }
+
+        // let danhSach = ["Lương Ngọc	Bích ", "Dương Gia Bình ", "Nguyễn Như Thành	Danh ", "Hoàng Xuân	Duẩn ", "Hà Văn	Dũng"];
+        // for(let k=0;k<danhSach.length;k++){
+        //     document.writeln("<br> Chao xin cac ban "+danhSach[k]);
+        // }
+
+        // var i=1;
+        // while (i<=10) {
+        //    document.writeln("The number is "+i+"<br>");
+        //    i=i+1;
+        // }
+
+
+        //let+tenham()={code logic};
+        // function sayHello() {
+        //     let name="Dong chi Tlinh"
+        //     document.writeln("Hello "+name);
+        // }
+        // sayHello();
+
+        // let name= prompt("Ten","Hay dien ten");
+        // let age= prompt("tuoi","Hay dien tuoi");
+        // // document.writeln(kq);
+        // function heLlo(name,age) {
+        //     document.writeln("Hello "+name+" tuoi:"+age);
+        // }
+        
+        // heLlo("Mai Son",100);
+        // heLlo(name,age);
+
+
+
+        //Kiem tra chan le
+        //Nhap vao so +tao ham kiem tra+in ra ket qua
+
+        let so=prompt("Moi ban Nhap so:");
+        
+        // document.writeln(isNaN(so));
+        function ktcl(soKiemTra) {
+            // let socuoicung = parseInt(so[so.length-1]);
+            // document.writeln("<br>");
+            if(soKiemTra%2==0){
+                document.writeln("la so chan!");
+            }
+            else{
+                document.writeln("la so le!");
+            }
+        }
+        ktcl(so);
+    </script>
+</body>
+</html>
